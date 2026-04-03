@@ -1,0 +1,23 @@
+{
+  "name": "ubisofttests",
+  "version": "1.0.0",
+  "description": "Lab for the Testing and Verification subject",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvzhenko/UbisoftTests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Yuvzhenko/UbisoftTests/issues"
+  },
+  "homepage": "https://github.com/Yuvzhenko/UbisoftTests#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.1"
+  }
+}
