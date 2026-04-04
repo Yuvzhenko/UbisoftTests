@@ -92,3 +92,75 @@ def test_main_page_categories(category, item_name, expected_url):
 
         browser.close()
 
+def test_add_to_cart():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=False)
+        page = browser.new_page()
+
+        open_page(page, "https://store.ubisoft.com")
+
+        product_title = page.locator(".product-tiles_product-card_components_ProductTile__content").first
+
+        expected_name = product_title.locator(".product-tiles_product-card_components_ProductTile_ProductDetails__title").inner_text().strip()
+
+        product_title.click()
+        
+        page.locator(".button.btn-connect-blue.get-the-game").filter(visible=True).first.click()
+
+        page.get_by_role("button", name="Add to cart").wait_for(state="visible", timeout=10000)
+        page.get_by_role("button", name="Add to cart").filter(visible=True).first.click()
+
+        cart_item_name = page.locator(".e-productitem__name-label").first
+
+        expect(cart_item_name).to_contain_text(expected_name, timeout=10000)
+
+        browser.close()
+
+def test_delete_from_cart():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+
+        open_page(page, "https://store.ubisoft.com")
+
+        page.locator(".product-tiles_product-card_components_ProductTile__content").first.click()
+        page.locator(".button.btn-connect-blue.get-the-game").filter(visible=True).first.click()
+        page.get_by_role("button", name="Add to cart").wait_for(state="visible", timeout=10000)
+        page.get_by_role("button", name="Add to cart").filter(visible=True).first.click()
+
+        page.locator(".c-button--link.e-productitem__remove").first.click()
+
+        expect(page.get_by_text("Ваш кошик порожній.")).to_be_visible(timeout=10000)
+
+def test_search_filter():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+
+        open_page(page, "https://store.ubisoft.com")
+
+        page.locator(".ais-SearchBox-input").press_sequentially("Assassin's Creed", delay=1)
+
+        filter_button = page.get_by_role("button", name=re.compile("Filters|Фільтри", re.IGNORECASE))
+        filter_button.wait_for(timeout=5000)
+
+        if filter_button.is_visible():
+            filter_button.first.wait_for(state="visible")
+            filter_button.first.click()
+
+            filter_type_section= page.locator(".refinement.accordion-element.product_type.tag-commander-event")
+            filter_type_section.click()
+
+            dlc_filter = filter_type_section.get_by_text(re.compile("DLC")).filter(visible=True).first
+
+            dlc_filter.wait_for(state="visible", timeout=10000)
+            dlc_filter.click()
+
+            page.locator(".button.btn-dblue.js-apply-filters-algolia").click()
+
+        page.locator(".product-tile.card:visible").first.wait_for(state="visible", timeout=15000)
+        page.locator(".product-tile.card:visible").first.click()
+
+        expect(page.locator(".c-pdp-banner__dlc")).to_be_visible(timeout=5000)
+        browser.close()
+
