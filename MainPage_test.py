@@ -94,7 +94,7 @@ def test_main_page_categories(category, item_name, expected_url):
 
 def test_add_to_cart():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
+        browser = p.chromium.launch(headless=True)
         page = browser.new_page()
 
         open_page(page, "https://store.ubisoft.com")
@@ -131,6 +131,7 @@ def test_delete_from_cart():
         page.locator(".c-button--link.e-productitem__remove").first.click()
 
         expect(page.get_by_text("Ваш кошик порожній.")).to_be_visible(timeout=10000)
+        browser.close()
 
 def test_search_filter():
     with sync_playwright() as p:
@@ -164,3 +165,76 @@ def test_search_filter():
         expect(page.locator(".c-pdp-banner__dlc")).to_be_visible(timeout=5000)
         browser.close()
 
+footer_current_page_items = [
+    ("Exclusive benefits", "ubisoft-store-benefits"),
+    ("Rewards", "rewards"),
+    ("About Ubisoft", "ubisoft.com"),
+    ("Careers", "company/careers/working-at-ubisoft"),
+    ("Creator Program", "creatorsprogram"),
+    ("Games", "games"),
+    ("Additional Content", "dlc"),
+    ("Deals", "deals"),
+    ("Ubisoft+", "ubisoftplus"),
+    ("Rocksmith+", "rocksmithplus"),
+    ("Ubisoft Connect PC launcher", "ubisoft-connect"),
+    ("Support", "purchases-and-rewards")
+]
+
+@pytest.mark.parametrize("text, expected_url", footer_current_page_items)
+def test_footer_current_page(text, expected_url):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+
+        open_page(page, "https://store.ubisoft.com")
+        
+        page.locator("#footer").get_by_text(text).first.click()
+
+        expect(page).to_have_url(re.compile(expected_url))
+        browser.close()
+
+footer_new_page_items = [
+    ("Simplified refund", "refund-policy"),
+    ("Ubisoft Gear Shop", "ubisoftgearshop")
+]
+
+@pytest.mark.parametrize("text, expected_url", footer_new_page_items)
+def test_footer_new_page(text, expected_url):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+
+        open_page(page, "https://store.ubisoft.com")
+
+        with page.context.expect_event("page") as new_page_info:
+            page.locator("#footer").get_by_text(text).first.click()
+        
+        new_page = new_page_info.value
+
+        expect(new_page).to_have_url(re.compile(expected_url))
+        browser.close()
+
+def test_wishlist():
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context(storage_state="auth.json")
+        page = context.new_page()
+
+        page.goto("https://store.ubisoft.com")
+        page.wait_for_load_state()
+        page.wait_for_timeout(5000)
+
+        previous_url = page.url
+        page.locator(".product-tiles_product-card_components_ProductTile__content").first.click()
+        if page.url == previous_url:
+         page.locator(".product-tiles_product-card_components_ProductTile__content").first.click()
+
+        item_name = page.locator(".c-pdp-banner__product-name").inner_text().strip()
+        page.locator(".tooltip-trigger.pdp-add-to-wishlist.button.add-to-wishlist.inverse.button-with-svg").first.click()
+
+        page.locator("#wishlist-status-icon").click()
+
+        wishlist_item_name = page.locator(".prod-title").first.inner_text().strip()
+
+        assert wishlist_item_name in item_name
+        browser.close()
