@@ -424,3 +424,356 @@ FodyWeavers.xsd
 /playwright/.cache/
 /playwright/.auth/
 auth.json
+temp_ubisoft_profile/Variations
+temp_ubisoft_profile/ShaderCache/index
+temp_ubisoft_profile/ShaderCache/data_3
+temp_ubisoft_profile/ShaderCache/data_2
+temp_ubisoft_profile/ShaderCache/data_1
+temp_ubisoft_profile/ShaderCache/data_0
+temp_ubisoft_profile/segmentation_platform/ukm_db-wal
+temp_ubisoft_profile/segmentation_platform/ukm_db
+temp_ubisoft_profile/Local State
+temp_ubisoft_profile/Last Version
+temp_ubisoft_profile/Last Browser
+temp_ubisoft_profile/GrShaderCache/index
+temp_ubisoft_profile/GrShaderCache/f_00000a
+temp_ubisoft_profile/GrShaderCache/f_000009
+temp_ubisoft_profile/GrShaderCache/f_000008
+temp_ubisoft_profile/GrShaderCache/f_000007
+temp_ubisoft_profile/GrShaderCache/f_000006
+temp_ubisoft_profile/GrShaderCache/f_000005
+temp_ubisoft_profile/GrShaderCache/f_000004
+temp_ubisoft_profile/GrShaderCache/f_000003
+temp_ubisoft_profile/GrShaderCache/f_000002
+temp_ubisoft_profile/GrShaderCache/f_000001
+temp_ubisoft_profile/GrShaderCache/data_3
+temp_ubisoft_profile/GrShaderCache/data_2
+temp_ubisoft_profile/GrShaderCache/data_1
+temp_ubisoft_profile/GrShaderCache/data_0
+temp_ubisoft_profile/GraphiteDawnCache/index
+temp_ubisoft_profile/GraphiteDawnCache/data_3
+temp_ubisoft_profile/GraphiteDawnCache/data_2
+temp_ubisoft_profile/GraphiteDawnCache/data_1
+temp_ubisoft_profile/GraphiteDawnCache/data_0
+temp_ubisoft_profile/first_party_sets.db-journal
+temp_ubisoft_profile/first_party_sets.db
+temp_ubisoft_profile/extensions_crx_cache/metadata.json
+temp_ubisoft_profile/Default/WebStorage/QuotaManager-journal
+temp_ubisoft_profile/Default/WebStorage/QuotaManager
+temp_ubisoft_profile/Default/Web Data-journal
+temp_ubisoft_profile/Default/Web Data
+temp_ubisoft_profile/Default/trusted_vault.pb
+temp_ubisoft_profile/Default/Top Sites-journal
+temp_ubisoft_profile/Default/Top Sites
+temp_ubisoft_profile/Default/Sync Data/LevelDB/MANIFEST-000001
+temp_ubisoft_profile/Default/Sync Data/LevelDB/LOG
+temp_ubisoft_profile/Default/Sync Data/LevelDB/LOCK
+temp_ubisoft_profile/Default/Sync Data/LevelDB/CURRENT
+temp_ubisoft_profile/Default/Site Characteristics Database/MANIFEST-000001
+temp_ubisoft_profile/Default/Site Characteristics Database/LOG
+temp_ubisoft_profile/Default/Site Characteristics Database/LOCK
+temp_ubisoft_profile/Default/Site Characteristics Database/CURRENT
+temp_ubisoft_profile/Default/Shortcuts-journal
+temp_ubisoft_profile/Default/Shortcuts
+temp_ubisoft_profile/Default/SharedStorage-wal
+temp_ubisoft_profile/Default/SharedStorage
+temp_ubisoft_profile/Default/shared_proto_db/metadata/MANIFEST-000001
+temp_ubisoft_profile/Default/shared_proto_db/metadata/LOG
+temp_ubisoft_profile/Default/shared_proto_db/metadata/LOCK
+temp_ubisoft_profile/Default/shared_proto_db/metadata/CURRENT
+temp_ubisoft_profile/Default/shared_proto_db/MANIFEST-000001
+temp_ubisoft_profile/Default/shared_proto_db/LOG
+temp_ubisoft_profile/Default/shared_proto_db/LOCK
+temp_ubisoft_profile/Default/shared_proto_db/CURRENT
+temp_ubisoft_profile/Default/Shared Dictionary/db-journal
+temp_ubisoft_profile/Default/Shared Dictionary/db
+temp_ubisoft_profile/Default/Shared Dictionary/cache/index-dir/the-real-index
+temp_ubisoft_profile/Default/Shared Dictionary/cache/index
+temp_ubisoft_profile/Default/Sessions/Session_13420664941467611
+temp_ubisoft_profile/Default/Session Storage/MANIFEST-000001
+temp_ubisoft_profile/Default/Session Storage/LOG
+temp_ubisoft_profile/Default/Session Storage/LOCK
+temp_ubisoft_profile/Default/Session Storage/CURRENT
+temp_ubisoft_profile/Default/ServerCertificate-journal
+temp_ubisoft_profile/Default/ServerCertificate
+temp_ubisoft_profile/Default/Segmentation Platform/SignalStorageConfigDB/LOG
+temp_ubisoft_profile/Default/Segmentation Platform/SignalStorageConfigDB/LOCK
+temp_ubisoft_profile/Default/Segmentation Platform/SignalDB/LOG
+temp_ubisoft_profile/Default/Segmentation Platform/SignalDB/LOCK
+temp_ubisoft_profile/Default/Segmentation Platform/SegmentInfoDB/LOG
+temp_ubisoft_profile/Default/Segmentation Platform/SegmentInfoDB/LOCK
+temp_ubisoft_profile/Default/Secure Preferences
+temp_ubisoft_profile/Default/Safe Browsing Network/Safe Browsing Cookies-journal
+temp_ubisoft_profile/Default/Safe Browsing Network/Safe Browsing Cookies
+temp_ubisoft_profile/Default/Safe Browsing Network/NetworkDataMigrated
+temp_ubisoft_profile/Default/README
+temp_ubisoft_profile/Default/PreferredApps
+temp_ubisoft_profile/Default/Preferences
+temp_ubisoft_profile/Default/PersistentOriginTrials/LOG
+temp_ubisoft_profile/Default/PersistentOriginTrials/LOCK
+temp_ubisoft_profile/Default/parcel_tracking_db/LOG
+temp_ubisoft_profile/Default/parcel_tracking_db/LOCK
+temp_ubisoft_profile/Default/Network/Trust Tokens-journal
+temp_ubisoft_profile/Default/Network/Trust Tokens
+temp_ubisoft_profile/Default/Network/SCT Auditing Pending Reports
+temp_ubisoft_profile/Default/Network/Reporting and NEL-journal
+temp_ubisoft_profile/Default/Network/Reporting and NEL
+temp_ubisoft_profile/Default/Network/NetworkDataMigrated
+temp_ubisoft_profile/Default/Network/Network Persistent State
+temp_ubisoft_profile/Default/Network/Cookies-journal
+temp_ubisoft_profile/Default/Network/Cookies
+temp_ubisoft_profile/Default/Network Action Predictor-journal
+temp_ubisoft_profile/Default/Network Action Predictor
+temp_ubisoft_profile/Default/Login Data-journal
+temp_ubisoft_profile/Default/Login Data For Account-journal
+temp_ubisoft_profile/Default/Login Data For Account
+temp_ubisoft_profile/Default/Login Data
+temp_ubisoft_profile/Default/LOG
+temp_ubisoft_profile/Default/LOCK
+temp_ubisoft_profile/Default/Local Storage/leveldb/MANIFEST-000001
+temp_ubisoft_profile/Default/Local Storage/leveldb/LOG
+temp_ubisoft_profile/Default/Local Storage/leveldb/LOCK
+temp_ubisoft_profile/Default/Local Storage/leveldb/CURRENT
+temp_ubisoft_profile/Default/History-journal
+temp_ubisoft_profile/Default/History
+temp_ubisoft_profile/Default/heavy_ad_intervention_opt_out.db-journal
+temp_ubisoft_profile/Default/heavy_ad_intervention_opt_out.db
+temp_ubisoft_profile/Default/GPUCache/index
+temp_ubisoft_profile/Default/GPUCache/data_3
+temp_ubisoft_profile/Default/GPUCache/data_2
+temp_ubisoft_profile/Default/GPUCache/data_1
+temp_ubisoft_profile/Default/GPUCache/data_0
+temp_ubisoft_profile/Default/GCM Store/MANIFEST-000001
+temp_ubisoft_profile/Default/GCM Store/LOG
+temp_ubisoft_profile/Default/GCM Store/LOCK
+temp_ubisoft_profile/Default/GCM Store/CURRENT
+temp_ubisoft_profile/Default/Feature Engagement Tracker/EventDB/LOG
+temp_ubisoft_profile/Default/Feature Engagement Tracker/EventDB/LOCK
+temp_ubisoft_profile/Default/Feature Engagement Tracker/AvailabilityDB/LOG
+temp_ubisoft_profile/Default/Feature Engagement Tracker/AvailabilityDB/LOCK
+temp_ubisoft_profile/Default/Favicons-journal
+temp_ubisoft_profile/Default/Favicons
+temp_ubisoft_profile/Default/Extension State/MANIFEST-000001
+temp_ubisoft_profile/Default/Extension State/LOG
+temp_ubisoft_profile/Default/Extension State/LOCK
+temp_ubisoft_profile/Default/Extension State/CURRENT
+temp_ubisoft_profile/Default/Extension Scripts/MANIFEST-000001
+temp_ubisoft_profile/Default/Extension Scripts/LOG
+temp_ubisoft_profile/Default/Extension Scripts/LOCK
+temp_ubisoft_profile/Default/Extension Scripts/CURRENT
+temp_ubisoft_profile/Default/Extension Rules/MANIFEST-000001
+temp_ubisoft_profile/Default/Extension Rules/LOG
+temp_ubisoft_profile/Default/Extension Rules/LOCK
+temp_ubisoft_profile/Default/Extension Rules/CURRENT
+temp_ubisoft_profile/Default/discounts_db/LOG
+temp_ubisoft_profile/Default/discounts_db/LOCK
+temp_ubisoft_profile/Default/discount_infos_db/LOG
+temp_ubisoft_profile/Default/discount_infos_db/LOCK
+temp_ubisoft_profile/Default/DIPS-wal
+temp_ubisoft_profile/Default/DIPS
+temp_ubisoft_profile/Default/DawnWebGPUCache/index
+temp_ubisoft_profile/Default/DawnWebGPUCache/data_3
+temp_ubisoft_profile/Default/DawnWebGPUCache/data_2
+temp_ubisoft_profile/Default/DawnWebGPUCache/data_1
+temp_ubisoft_profile/Default/DawnWebGPUCache/data_0
+temp_ubisoft_profile/Default/DawnGraphiteCache/index
+temp_ubisoft_profile/Default/DawnGraphiteCache/data_3
+temp_ubisoft_profile/Default/DawnGraphiteCache/data_2
+temp_ubisoft_profile/Default/DawnGraphiteCache/data_1
+temp_ubisoft_profile/Default/DawnGraphiteCache/data_0
+temp_ubisoft_profile/Default/commerce_subscription_db/LOG
+temp_ubisoft_profile/Default/commerce_subscription_db/LOCK
+temp_ubisoft_profile/Default/Code Cache/wasm/index-dir/the-real-index
+temp_ubisoft_profile/Default/Code Cache/wasm/index
+temp_ubisoft_profile/Default/Code Cache/js/index-dir/the-real-index
+temp_ubisoft_profile/Default/Code Cache/js/index
+temp_ubisoft_profile/Default/Code Cache/js/f60c27591e24e414_0
+temp_ubisoft_profile/Default/Code Cache/js/f422cfe1e70f8b7c_0
+temp_ubisoft_profile/Default/Code Cache/js/ee1c69794d3f2c67_0
+temp_ubisoft_profile/Default/Code Cache/js/ec01de0f3706c457_0
+temp_ubisoft_profile/Default/Code Cache/js/eb7c8f03c57803ca_0
+temp_ubisoft_profile/Default/Code Cache/js/e99361d91253356f_0
+temp_ubisoft_profile/Default/Code Cache/js/e4194c6e8a0cba21_0
+temp_ubisoft_profile/Default/Code Cache/js/e2c7ac2c9a9cb193_0
+temp_ubisoft_profile/Default/Code Cache/js/e05430704423ffce_0
+temp_ubisoft_profile/Default/Code Cache/js/dcde2b0f44b722cb_0
+temp_ubisoft_profile/Default/Code Cache/js/d81952ce253b102f_0
+temp_ubisoft_profile/Default/Code Cache/js/d78b3398caa94cad_0
+temp_ubisoft_profile/Default/Code Cache/js/d3dab393c6e0c7ba_0
+temp_ubisoft_profile/Default/Code Cache/js/d2b8272ae0c04732_0
+temp_ubisoft_profile/Default/Code Cache/js/d1b4bfa9aabcfbcd_0
+temp_ubisoft_profile/Default/Code Cache/js/d01b543706ee1436_0
+temp_ubisoft_profile/Default/Code Cache/js/cfffa2c63d5a15c1_0
+temp_ubisoft_profile/Default/Code Cache/js/cabe433449b16f62_0
+temp_ubisoft_profile/Default/Code Cache/js/c4635599139e073b_0
+temp_ubisoft_profile/Default/Code Cache/js/c30cdd04cf52b263_0
+temp_ubisoft_profile/Default/Code Cache/js/c030e2e7cba1c06f_0
+temp_ubisoft_profile/Default/Code Cache/js/bf99c203d386f16d_0
+temp_ubisoft_profile/Default/Code Cache/js/ba983a8387e0c012_0
+temp_ubisoft_profile/Default/Code Cache/js/b7d9dd08bb797605_0
+temp_ubisoft_profile/Default/Code Cache/js/b50fa6228a8a4ac7_0
+temp_ubisoft_profile/Default/Code Cache/js/b29ac2d199a227ac_0
+temp_ubisoft_profile/Default/Code Cache/js/a939c46a55ef52e6_0
+temp_ubisoft_profile/Default/Code Cache/js/a8c6ab27dbe24345_0
+temp_ubisoft_profile/Default/Code Cache/js/a0f00333a46296bf_0
+temp_ubisoft_profile/Default/Code Cache/js/9e30000122bfb6e3_0
+temp_ubisoft_profile/Default/Code Cache/js/988db65cd9d24d52_0
+temp_ubisoft_profile/Default/Code Cache/js/95cdb31a5e303f1a_0
+temp_ubisoft_profile/Default/Code Cache/js/91e565246c14c476_0
+temp_ubisoft_profile/Default/Code Cache/js/8ac4064c7dba2f68_0
+temp_ubisoft_profile/Default/Code Cache/js/894585a885f19969_0
+temp_ubisoft_profile/Default/Code Cache/js/894182f162e3ef07_0
+temp_ubisoft_profile/Default/Code Cache/js/859348f6023929dd_0
+temp_ubisoft_profile/Default/Code Cache/js/839ba5f93c5cbdb1_0
+temp_ubisoft_profile/Default/Code Cache/js/72f24d925dabf6ce_0
+temp_ubisoft_profile/Default/Code Cache/js/728fa6f9354a54f0_0
+temp_ubisoft_profile/Default/Code Cache/js/724453f7816dc58b_0
+temp_ubisoft_profile/Default/Code Cache/js/6fc68e6a028904d0_0
+temp_ubisoft_profile/Default/Code Cache/js/6f179cb806c19b8e_0
+temp_ubisoft_profile/Default/Code Cache/js/5f45f03e55e1d457_0
+temp_ubisoft_profile/Default/Code Cache/js/55302dc945e0c616_0
+temp_ubisoft_profile/Default/Code Cache/js/50dca756a68c5301_0
+temp_ubisoft_profile/Default/Code Cache/js/4fed2a01f8cdfb69_0
+temp_ubisoft_profile/Default/Code Cache/js/4f1d4bfb7ab3876f_0
+temp_ubisoft_profile/Default/Code Cache/js/4e10b4e46616e802_0
+temp_ubisoft_profile/Default/Code Cache/js/421e53b65912f1d8_0
+temp_ubisoft_profile/Default/Code Cache/js/3eb1ed15a6120664_0
+temp_ubisoft_profile/Default/Code Cache/js/3dbdd4e8897ad468_0
+temp_ubisoft_profile/Default/Code Cache/js/3baa518e47bedc41_0
+temp_ubisoft_profile/Default/Code Cache/js/38ca9e280bd09e1d_0
+temp_ubisoft_profile/Default/Code Cache/js/38c8c2d3936ea427_0
+temp_ubisoft_profile/Default/Code Cache/js/3759013f3e5e4c4a_0
+temp_ubisoft_profile/Default/Code Cache/js/36a3f12708a2dab5_0
+temp_ubisoft_profile/Default/Code Cache/js/2e43763691f0b9b8_0
+temp_ubisoft_profile/Default/Code Cache/js/2bda0b9c0b4f9314_0
+temp_ubisoft_profile/Default/Code Cache/js/23fb3939447bb455_0
+temp_ubisoft_profile/Default/Code Cache/js/1feb38c0f20a7f28_0
+temp_ubisoft_profile/Default/Code Cache/js/1f795119c34430b7_0
+temp_ubisoft_profile/Default/Code Cache/js/1a628384147da574_0
+temp_ubisoft_profile/Default/Code Cache/js/1a3df0ef250f928b_0
+temp_ubisoft_profile/Default/Code Cache/js/079f31b1941bd22b_0
+temp_ubisoft_profile/Default/ClientCertificates/LOG
+temp_ubisoft_profile/Default/ClientCertificates/LOCK
+temp_ubisoft_profile/Default/chrome_cart_db/LOG
+temp_ubisoft_profile/Default/chrome_cart_db/LOCK
+temp_ubisoft_profile/Default/Cache/No_Vary_Search/snapshot.baf
+temp_ubisoft_profile/Default/Cache/No_Vary_Search/journal.baj
+temp_ubisoft_profile/Default/Cache/Cache_Data/index
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000065
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000064
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000063
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000062
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000061
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000060
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00005a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000059
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000058
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000057
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000056
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000055
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000054
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000053
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000052
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000051
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000050
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00004a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000049
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000048
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000047
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000046
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000045
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000044
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000043
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000042
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000041
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000040
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00003a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000039
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000038
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000037
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000036
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000035
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000034
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000033
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000032
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000031
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000030
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00002a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000029
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000028
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000027
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000026
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000025
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000024
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000023
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000022
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000021
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000020
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00001a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000019
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000018
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000017
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000016
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000015
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000014
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000013
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000012
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000011
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000010
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000f
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000e
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000d
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000c
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000b
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_00000a
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000009
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000008
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000007
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000006
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000005
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000004
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000003
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000002
+temp_ubisoft_profile/Default/Cache/Cache_Data/f_000001
+temp_ubisoft_profile/Default/Cache/Cache_Data/data_3
+temp_ubisoft_profile/Default/Cache/Cache_Data/data_2
+temp_ubisoft_profile/Default/Cache/Cache_Data/data_1
+temp_ubisoft_profile/Default/Cache/Cache_Data/data_0
+temp_ubisoft_profile/Default/BudgetDatabase/LOG
+temp_ubisoft_profile/Default/BudgetDatabase/LOCK
+temp_ubisoft_profile/Default/BookmarkMergedSurfaceOrdering
+temp_ubisoft_profile/Default/AutofillStrikeDatabase/LOG
+temp_ubisoft_profile/Default/AutofillStrikeDatabase/LOCK
+temp_ubisoft_profile/Default/AutofillAiModelCache/LOG
+temp_ubisoft_profile/Default/AutofillAiModelCache/LOCK
+temp_ubisoft_profile/Default/Affiliation Database-journal
+temp_ubisoft_profile/Default/Affiliation Database
+temp_ubisoft_profile/Default/Account Web Data-journal
+temp_ubisoft_profile/Default/Account Web Data
+temp_ubisoft_profile/Crashpad/settings.dat
+temp_ubisoft_profile/component_crx_cache/metadata.json
